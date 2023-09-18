@@ -7,8 +7,8 @@
  */
 define('SERVIDOR','127.0.0.1');
 define('USUARIO','root');
-define('PASSWORD','');
-define('BD','ventas');
+define('PASSWORD','Pedro');
+define('BD','sistemasdeventas');
 
 $servidor = "mysql:dbname=".BD.";host=".SERVIDOR;
 
@@ -20,7 +20,7 @@ try{
     echo "Error al conectar a la base de datos";
 }
 
-$URL = "http://localhost/ventas";
+$URL = "http://54.80.17.70/SistemaDeVentas";
 
 date_default_timezone_set("America/Caracas");
 $fechaHora = date('Y-m-d H:i:s');
